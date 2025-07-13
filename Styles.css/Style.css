@@ -51,7 +51,7 @@ nav{
     font-weight: bold;
     justify-content: center;
     /* margin:  309px 267px 152px 267px; */
-    font-size: 3em;
+    font-size: 65px;
     }
 .banner{
     
@@ -102,4 +102,36 @@ nav{
 .Launch-btn.stay-focused{
     width: 229px;
     height: 48px;
+}
+
+.users{
+    max-width: 1140px;
+    margin: 0 auto;
+    border-radius: 24px;
+    padding: 50px  80px;
+    justify-content: center;
+    
+}
+
+.joined{
+    text-align: center;
+    margin-top: 116px;
+    margin-bottom: 0;
+}
+.join-item{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.item-title{
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    margin-bottom: 0;
+    margin-top: 40px;
+    color: #4E47FF;
+}
+.item-description{
+    font-family: "Inter", sans-serif;
+    margin-top: 0;
 }
